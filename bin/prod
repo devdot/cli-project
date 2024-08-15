@@ -3,4 +3,4 @@
 
 require $_composer_autoload_path ?? __DIR__ . '/../vendor/autoload.php';
 
-App\Kernel::run();
+App\Kernel::run(false);

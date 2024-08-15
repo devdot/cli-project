@@ -2,10 +2,13 @@
 
 namespace App\Commands;
 
-use App\Commands\Traits\CustomTrait;
-use Devdot\Cli\Command as BaseCommand;
+use Devdot\Cli\Command as CliCommand;
+use Devdot\Cli\Contracts\ContainerInterface;
 
-abstract class Command extends BaseCommand
+abstract class Command extends CliCommand
 {
-    use CustomTrait;
+    public function __construct(ContainerInterface $container)
+    {
+        parent::__construct($container);
+    }
 }
