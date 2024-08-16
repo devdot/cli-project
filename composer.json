@@ -15,10 +15,10 @@
         }
     ],
     "require": {
-        "devdot/cli": "@dev"
+        "devdot/cli": "^1"
     },
     "require-dev": {
-        "devdot/cli-builder": "@dev",
+        "devdot/cli-builder": "^1",
         "phpstan/phpstan": "^1.11",
         "phpunit/phpunit": "^11.3",
         "squizlabs/php_codesniffer": "^3.10"

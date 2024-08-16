@@ -3,12 +3,11 @@
 namespace App\Commands;
 
 use Devdot\Cli\Command as CliCommand;
-use Devdot\Cli\Contracts\ContainerInterface;
 
 abstract class Command extends CliCommand
 {
-    public function __construct(ContainerInterface $container)
+    public function __construct()
     {
-        parent::__construct($container);
+        parent::__construct();
     }
 }

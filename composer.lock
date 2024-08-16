@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3dea0d55c9f6974a5b91fe3a1bbdec78",
+    "content-hash": "74634480442b2c327163a9565b572e52",
     "packages": [
         {
             "name": "devdot/cli",
-            "version": "dev-master",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devdot/cli.git",
+                "reference": "2dd895debd16f0f0bf2a121efb63944f7bfbd215"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/devdot/projects/components/cli",
-                "reference": "3afbe48412b9c024edc1e642adcd363956afa248"
+                "type": "zip",
+                "url": "https://api.github.com/repos/devdot/cli/zipball/2dd895debd16f0f0bf2a121efb63944f7bfbd215",
+                "reference": "2dd895debd16f0f0bf2a121efb63944f7bfbd215",
+                "shasum": ""
             },
             "require": {
                 "php": "^8.2",
@@ -33,17 +39,7 @@
                     "Devdot\\Cli\\": "src/"
                 }
             },
-            "scripts": {
-                "check-static": [
-                    "phpstan analyse src --level=9"
-                ],
-                "format": [
-                    "phpcbf --standard=PSR12 src tests"
-                ],
-                "test": [
-                    "phpunit tests"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -54,9 +50,11 @@
                 }
             ],
             "description": "Tools for CLI projects, on top of symfony/console.",
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/devdot/cli/issues",
+                "source": "https://github.com/devdot/cli/tree/v1.0.1"
+            },
+            "time": "2024-08-15T16:52:12+00:00"
         },
         {
             "name": "psr/container",
@@ -1202,14 +1200,20 @@
         },
         {
             "name": "devdot/cli-builder",
-            "version": "dev-master",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devdot/cli-builder.git",
+                "reference": "3419a419839c4e959ba943a4b44f58c5082567ba"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/devdot/projects/components/cli-builder",
-                "reference": "5eb77d8eb64ca7832166a864356776c8765b094c"
+                "type": "zip",
+                "url": "https://api.github.com/repos/devdot/cli-builder/zipball/3419a419839c4e959ba943a4b44f58c5082567ba",
+                "reference": "3419a419839c4e959ba943a4b44f58c5082567ba",
+                "shasum": ""
             },
             "require": {
-                "devdot/cli": "dev-master",
+                "devdot/cli": "^1",
                 "nadar/php-composer-reader": "^2.0",
                 "nette/php-generator": "^4.1",
                 "nikic/php-parser": "^4.7|^5"
@@ -1228,17 +1232,7 @@
                     "Devdot\\Cli\\Builder\\": "src/"
                 }
             },
-            "scripts": {
-                "check-static": [
-                    "phpstan analyse"
-                ],
-                "format": [
-                    "phpcbf --standard=PSR12 src tests"
-                ],
-                "test": [
-                    "phpunit tests"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1252,9 +1246,11 @@
             "keywords": [
                 "dev"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/devdot/cli-builder/issues",
+                "source": "https://github.com/devdot/cli-builder/tree/v1.0.1"
+            },
+            "time": "2024-08-16T07:26:29+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3231,10 +3227,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "devdot/cli": 20,
-        "devdot/cli-builder": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
