@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74634480442b2c327163a9565b572e52",
+    "content-hash": "1d426510af4a4c58fcf5db67a9591cd1",
     "packages": [
         {
             "name": "devdot/cli",
