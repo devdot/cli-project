@@ -20,7 +20,7 @@ rm .gitattributes.dist
 mv .gitattributes .gitattributes.project
 
 composer require devdot/cli $composerversion
-composer require devdot/cli-builder $composerversion --dev
+composer require devdot/cli-builder --dev
 vendor/bin/cli-builder init --force --no-interaction
 
 mv .gitattributes .gitattributes.dist
