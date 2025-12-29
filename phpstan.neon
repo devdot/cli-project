@@ -1,0 +1,15 @@
+includes:
+    - vendor/phpstan/phpstan-symfony/extension.neon
+    - vendor/phpstan/phpstan-symfony/rules.neon
+
+parameters:
+    paths:
+        - src/
+
+    excludePaths:
+        - src/ProductionContainer.php
+
+    level: 9
+
+    symfony:
+        consoleApplicationLoader: tests/console.php
